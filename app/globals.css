@@ -80,11 +80,11 @@
 }
 
 .root {
-  @apply flex min-h-screen w-full flex-col bg-white lg:flex-row;
+  @apply flex min-h-screen w-full flex-col bg-white lg:flex-row mt-0 mr-80;
 }
 
 .root-container {
-  @apply mt-16 flex-1 overflow-auto py-8 lg:mt-0 lg:max-h-screen lg:py-10
+  @apply mt-10 flex-1 overflow-auto py-8 lg:mt-0 lg:max-h-screen lg:py-10
 }
 
 /* ========================================== TAILWIND STYLES */
