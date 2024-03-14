@@ -23,7 +23,7 @@ const Credits = async () => {
       />
 
       <section>
-        <ul className="credits-list">
+        <ul className="credits-list" >
           {plans.map((plan) => (
             <li key={plan.name} className="credits-item">
               <div className="flex-center flex-col gap-3">

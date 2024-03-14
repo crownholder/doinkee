@@ -18,9 +18,9 @@ const Profile = async ({ searchParams }: SearchParamProps) => {
 
   return (
     <>
-      <Header title="Profile" />
+      <Header title="My Profile" />
 
-      <section className="profile">
+      <section className="profile" style={{display: 'inline-block'}} >
         <div className="profile-balance">
           <p className="p-14-medium md:p-16-medium">CREDITS AVAILABLE</p>
           <div className="mt-4 flex items-center gap-4">
